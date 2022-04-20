@@ -17,3 +17,6 @@ You can download the data in our Canvas page:
 ## Edit this READ-ME
 
 Please edit this read-me file with information about your project. You can find a [READ-ME template here](https://github.com/catiaspsilva/README-template).
+Final_CNN - This is our saved CNN model after training on all data_train.npy images with best parameters achieved through GridSearch CV
+train.ipynb - Jupyter notebook with code including all preprocessing , GridSearch CV, and then training on final model steps.
+easy_test.ipynb - Jupyter notebook used to classify the images and test the accuracy of Easy Test Dataset.
