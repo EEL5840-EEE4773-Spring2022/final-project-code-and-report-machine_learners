@@ -28,4 +28,10 @@ Dependencies:-
 
 Tensorflow 2.6, Opencv, Seasborn, sklearn, sckit-learn, keras, numpy, matplotlib, argparse, skimage, pandas.
 
+HOW TO RUN:-
 
+For training file (train.ipynb), load the data and labels file (.npy) in the first cell by changing the directory in np.load('') and just run all the cells.
+
+Dimensions of data should be 90000xN, where, N is number of samples.
+
+Similarly, change the np.load() directory to load the data for easy_test.ipynb and hard_test.ipynb and dimension should be again 90000xN.
