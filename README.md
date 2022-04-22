@@ -23,3 +23,9 @@ Final_CNN - This is our saved CNN model after training on all data_train.npy ima
 train.ipynb - Jupyter notebook with code including all preprocessing , GridSearch CV, and then training on final model steps.
 
 easy_test.ipynb - Jupyter notebook used to classify the images and test the accuracy of Easy Test Dataset.
+
+Dependencies:-
+
+Tensorflow 2.6, Opencv, Seasborn, sklearn, sckit-learn, keras, numpy, matplotlib, argparse, skimage, pandas.
+
+
