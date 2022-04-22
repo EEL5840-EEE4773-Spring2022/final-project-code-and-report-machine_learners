@@ -17,3 +17,21 @@ You can download the data in our Canvas page:
 ## Edit this READ-ME
 
 Please edit this read-me file with information about your project. You can find a [READ-ME template here](https://github.com/catiaspsilva/README-template).
+
+Final_CNN - This is our saved CNN model after training on all data_train.npy images with best parameters achieved through GridSearch CV.
+
+train.ipynb - Jupyter notebook with code including all preprocessing , GridSearch CV, and then training on final model steps.
+
+easy_test.ipynb - Jupyter notebook used to classify the images and test the accuracy of Easy Test Dataset.
+
+Dependencies:-
+
+Tensorflow 2.6, Opencv, Seasborn, sklearn, sckit-learn, keras, numpy, matplotlib, argparse, skimage, pandas.
+
+HOW TO RUN:-
+
+For training file (train.ipynb), load the data and labels file (.npy) in the first cell by changing the directory in np.load('') and just run all the cells.
+
+Dimensions of data should be 90000xN, where, N is number of samples.
+
+Similarly, change the np.load() directory to load the data and labels file for easy_test.ipynb and hard_test.ipynb and dimension should be again 90000xN.
