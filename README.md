@@ -1,11 +1,5 @@
 # Final Project
 
-This is a **group assignment**.
-
-## Milestone 2 - Code Implementation & Technical Report
-
-This milestone is to be delivered at the end of the semester, Friday April 22 @ 11:59 PM. Find the complete [rubric](https://ufl.instructure.com/courses/447948/assignments/5138679) in the Canvas assignemtn.
-
 ## Training Data
 
 The training data set is the same for every team in this course.
@@ -14,7 +8,6 @@ You can download the data in our Canvas page:
 * ["data_train.npy"](https://ufl.instructure.com/courses/447948/files/folder/Final%20Project?preview=67069006)
 * ["labels_train.npy"](https://ufl.instructure.com/courses/447948/files/folder/Final%20Project?preview=67068769)
 
-## Edit this READ-ME
 
 ## About The Project
 1. train.ipynb - Jupyter notebook with code including all preprocessing, GridSearch CV, and then training on final model and saving the model as "Final_CNN".
@@ -31,6 +24,7 @@ After saving the model we can use it in easy_test and hard_test files to test on
 6. data.npy - temporary data of 400 images to test our data, just to check if the code is working fine, any data with proper dimensions mentioned below can be used.
 7. labels.npy - labels for above data.npy
 
+
 ## Getting Started
 In this section you should provide instructions on how to use this repository to recreate your project locally.
 1. You can use 'git clone' to clone this repository (Project link is given below)
@@ -39,24 +33,15 @@ In this section you should provide instructions on how to use this repository to
 
 
 ## Dependencies
-1. Tensorflow 2.6
-   pip install tensorflow==2.6
-2. OpenCV 4.5.2
-   pip install opencv-python
-3. Seaborn
-   pip install seaborn
-4. Sklearn
-   pip install sklearn
-5. sckit-learn
-   pip install -U scikit-learn
-6. keras
-   pip install keras
-7. numpy
-   pip install numpy
-8. matplotlib
-   pip install matplotlib
-9. pandas
-   pip install pandas
+1. Tensorflow 2.6 (pip install tensorflow==2.6)
+2. OpenCV 4.5.2 (pip install opencv-python)
+3. Seaborn (pip install seaborn)
+4. Sklearn (pip install sklearn)
+5. sckit-learn (pip install -U scikit-learn)
+6. keras (pip install keras)
+7. numpy (pip install numpy)
+8. matplotlib (pip install matplotlib)
+9. pandas (pip install pandas)
 
 
 ## Usage
@@ -75,6 +60,7 @@ James Overmeyer - jovermeyer@ufl.edu
 Cody Hutcheson - c.hutcheson@ufl.edu
 
 ### Project Link: https://github.com/EEL5840-EEE4773-Spring2022/final-project-code-and-report-machine_learners
+
 
 ## Acknowledgements
 
