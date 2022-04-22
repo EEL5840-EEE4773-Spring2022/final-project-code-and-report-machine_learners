@@ -34,4 +34,4 @@ For training file (train.ipynb), load the data and labels file (.npy) in the fir
 
 Dimensions of data should be 90000xN, where, N is number of samples.
 
-Similarly, change the np.load() directory to load the data for easy_test.ipynb and hard_test.ipynb and dimension should be again 90000xN.
+Similarly, change the np.load() directory to load the data and labels file for easy_test.ipynb and hard_test.ipynb and dimension should be again 90000xN.
