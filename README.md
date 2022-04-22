@@ -22,6 +22,7 @@ Please edit this read-me file with information about your project. You can find 
 2. train.ipynb - Jupyter notebook with code including all preprocessing , GridSearch CV, and then training on final model steps.
 3. easy_test.ipynb - Jupyter notebook used to classify the images and test the accuracy of Easy Test Dataset.
 4. Final_Report.docx - Report of our project
+5. new_labels_train.npy - Corrected labels file of traing data
 
 Dependencies:-
   1. Tensorflow 2.6, 
