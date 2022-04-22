@@ -27,7 +27,7 @@ Please edit this read-me file with information about your project. You can find 
 Dependencies:-
   1. Tensorflow 2.6, 
   2. OpenCV,
-  3. Seasborn, 
+  3. Seaborn, 
   4. sklearn, 
   5. sckit-learn, 
   6. keras, 
